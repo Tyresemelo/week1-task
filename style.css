@@ -28,12 +28,12 @@
 
 
 .title {
-    position:absolute;
-    bottom: 50px;
+    position: absolute;
+    bottom: 100px;
     left: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 h2 {
     color: white;
@@ -84,7 +84,32 @@ nav {
     padding: 20px;
     background-color:black;
     color: white;
+}
+.title a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.title * {
+    padding: 21px;
+    margin-left: 20px;
+}
+.title a {margin: 10px;
+    padding-right: 20px;
+    
+}
 
+.title2 a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.title2 * {
+    padding: 21px;
+    margin-left: 20px;
+}
+.title2 a {margin: 10px;
+    padding-right: 20px;
 }
 .title3 a:hover {
     background-color: white;
@@ -99,27 +124,37 @@ nav {
 .title3 a {
     margin: 10px;
     padding-right: 100px;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.title2 a {
+    margin: 10px;
+    padding-right: 100px;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.title a {
+    margin: 10px;
+    padding-right: 100px;
+    font-size: 25px;
+    padding-left: 50px;
 }
 
-.title a:hover {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
 
 .title * {
     padding-left: 40px;
     margin-left: 20px;
 }
-.title a:hover {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
+
 .title2 {
     font-size: 25px;
     padding-left:50px ;
 }
+.title3 {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
 
 
 
